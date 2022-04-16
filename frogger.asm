@@ -3,7 +3,7 @@
 # CSC258H5S Winter 2022 Assembly Final Project
 # University of Toronto, St. George
 #
-# Student: Kobi Schmalenberg, 1006792151
+# Student: Kobi Schmalenberg
 #
 # Bitmap Display Configuration:
 # - Unit width in pixels: 8
@@ -11,10 +11,6 @@
 # - Display width in pixels: 256
 # - Display height in pixels: 256
 # - Base Address for Display: 0x10008000 ($gp)
-#
-# Which milestone is reached in this submission?
-# (See the assignment handout for descriptions of the milestones)
-# - Milestone 5 (choose the one the applies)
 #
 # Which approved additional features have been implemented?
 # (See the assignment handout for the list of additional features)
@@ -26,10 +22,6 @@
 # 5. (Sound Effects) = Easy
 # 6. (2 Player Mode Option) = Hard
 # ... (add more if necessary)
-#
-# Any additional information that the TA needs to know:
-# - (write here, if any)
-#
 #####################################################################
 .data
 displayAddress: .word 0x10008000
